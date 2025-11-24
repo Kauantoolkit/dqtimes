@@ -1,0 +1,22 @@
+# --- Python ---
+# Arquivos compilados (bytecode)
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Bibliotecas e Ambientes Virtuais (O principal problema na sua imagem)
+venv/
+env/
+.env
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# --- IDEs e Editores ---
+# Configurações do VS Code
+.vscode/
+*.code-workspace
+
+# --- Sistema Operacional ---
+.DS_Store
+Thumbs.db
