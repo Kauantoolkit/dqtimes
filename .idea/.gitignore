@@ -1,56 +1,40 @@
-# =========================================
-# Python
-# =========================================
+# --- Python ---
 __pycache__/
 *.py[cod]
 *.pyo
 *.pyd
 *.so
-*.egg
 *.egg-info/
-dist/
-build/
-*.spec
-
-# =========================================
-# Virtual environment
-# =========================================
-venv/
-.env/
-.venv/
-
-# =========================================
-# FastAPI / Uvicorn
-# =========================================
+.eggs/
 *.log
 
-# =========================================
-# IDEs / Editores
-# =========================================
-# VSCode
+# --- Virtual environments ---
+venv/
+.env/
+meu_ambiente_venv/
+
+# --- IDEs ---
+.idea/
 .vscode/
 
-# JetBrains (PyCharm)
-.idea/
-*.iml
+# --- FastAPI / Uvicorn ---
+*.sqlite3
+*.db
 
-# =========================================
-# SO (Windows/Linux/macOS)
-# =========================================
+# --- Arquivos temporários / cache ---
+*.tmp
+*.swp
+*.bak
+
+# --- Arquivos CSV, testes e dados de exemplo ---
+*.csv
+
+# --- Bibliotecas compiladas manuais (se não fazem parte do repositório) ---
+app/libs/
+tutorialPy/libs/
+dqtimes/app/libs/
+
+# --- Pacotes e arquivos do sistema ---
+*.deb
 .DS_Store
 Thumbs.db
-
-# =========================================
-# Pytest / Coverage
-# =========================================
-.coverage
-.cache/
-htmlcov/
-
-# =========================================
-# Arquivos temporários
-# =========================================
-*.tmp
-*.temp
-
-*.idea
