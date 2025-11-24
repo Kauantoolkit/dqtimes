@@ -1,13 +1,11 @@
 from fastapi import FastAPI, Query, HTTPException, status, Form
-from services.meu_servico import Minha_Classe
 from tutorialPy.services.previsoes_service import PrevisoesService
-from models import (
-    Exemplo1Response,
-    Exemplo2Response,
-    # PrevisaoRequest, # Removido para usar Form
-)
 from typing import List
 import json
+from tutorialPy.services.meu_servico import Minha_Classe
+from tutorialPy.services.meu_servico import Minha_Classe
+from tutorialPy.services.previsoes_service import PrevisoesService
+from tutorialPy.models import Exemplo1Response, Exemplo2Response
 
 
 # =================================================================
